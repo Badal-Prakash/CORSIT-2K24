@@ -391,9 +391,6 @@ const Team = () => {
         <h2 className="text-3xl text-center font-bold tracking-tight text-white-900 sm:text-4xl ">
           Meet The Brains
         </h2>
-        <h4 className="team_tag">
-          These people work on making Robotics reality
-        </h4>
         <div className="max-w-[1240px]  my-14 mx-auto grid lg:grid-cols-4 sm:grid-cols-2 md:grid-cols-3 gap-8  ">
           {people.map((person, i) => (
             <div className="flex items-center justify-center" key={i}>
