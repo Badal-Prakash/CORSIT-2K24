@@ -306,7 +306,7 @@ const people = [
     name: "Vishal Mishra",
     linkedin: "https://www.linkedin.com/in/vishal-kumar-575724206",
     ima: VM,
-    role: "Alumni",
+    role: "Enterprise Software Engineer at Wolters Kluwer",
   },
   {
     id: 2,
