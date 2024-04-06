@@ -89,32 +89,32 @@ const people = [
     name: "KUNAL",
     linkedin: "https://www.linkedin.com/in/kunal-chanda-104a63226",
     image: KUNAL,
-    role: "Forth Year",
+    role: "Fourth Year",
   },
   {
     name: "TANNISHTHA NANDY",
     linkedin: "https://www.linkedin.com/in/tannistha-nandy-22b8401b9",
     image: TANNISHTHA,
-    role: "Forth Year",
+    role: "Fourth Year",
   },
 
   {
     name: "YASHASWINI",
     linkedin: "https://www.linkedin.com/company/corsit/",
     image: YASHASWINI,
-    role: "Forth Year",
+    role: "Fourth Year",
   },
   {
     name: "AYUSHMAN SHARMA",
     linkedin: "https://www.linkedin.com/in/ayushman-sharma-b43623213/",
     image: AYUSHMAN,
-    role: "Forth Year",
+    role: "Fourth Year",
   },
   {
     name: "JEEVITHA",
     linkedin: "https://www.linkedin.com/in/jeevitha-k-a-744405229",
     image: JEEVITHA,
-    role: "Forth Year",
+    role: "Fourth Year",
   },
   {
     name: "UJJAWAL SINGH ",
