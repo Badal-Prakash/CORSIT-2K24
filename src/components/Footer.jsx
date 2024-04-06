@@ -125,7 +125,7 @@ function Footer() {
                     <div className="flex items-center ">
                       <CiMail />
                       <span className="text-[16px] ml-3 text-white  ">
-                        <ExternalLink href="mailto:lav14251@gmail.com">
+                        <ExternalLink href="mailto:corsit@sit.ac.in">
                           <p
                             className="bg-white text-transparent
                             hover:bg-gradient-to-r
