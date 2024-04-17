@@ -1,5 +1,4 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { AnimatePresence } from "framer-motion";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
@@ -14,21 +13,20 @@ import OurEvents from "./pages/OurEvents";
 function App() {
   return (
     <div>
-      <AnimatePresence>
-        <BrowserRouter>
-          <Header />
-          <Routes location={location}>
-            <Route path="/" element={<Home />}></Route>
-            <Route path="/about" element={<About />}></Route>
-            <Route path="/alumini" element={<Alumini />}></Route>
-            <Route path="/contact" element={<Contact />}></Route>
-            <Route path="/ourteam" element={<OurTeam />}></Route>
-            <Route path="/projects" element={<Projects />}></Route>
-            {/* <Route path="/robocor" element={<Robocor />}></Route> */}
-            {/* <Route path="/heckfest" element={<Heckfest />}></Route> */}
-          </Routes>
-        </BrowserRouter>
-      </AnimatePresence>
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="/about" element={<About />}></Route>
+          <Route path="/alumini" element={<Alumini />}></Route>
+          <Route path="/contact" element={<Contact />}></Route>
+          <Route path="/ourteam" element={<OurTeam />}></Route>
+          <Route path="/projects" element={<Projects />}></Route>
+          {/* <Route path="/robocor" element={<Robocor />}></Route> */}
+          {/* <Route path="/heckfest" element={<Heckfest />}></Route> */}
+        </Routes>
+      </BrowserRouter>
+
       <Footer />
     </div>
   );

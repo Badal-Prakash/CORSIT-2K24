@@ -95,7 +95,7 @@ function Footer() {
                             to-indigo-600
                             bg-clip-text transition duration-300 cursor-pointer"
                     >
-                      Hackthon
+                      Hackathon
                     </a>
                   </li>
                 </ul>

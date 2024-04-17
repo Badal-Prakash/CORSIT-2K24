@@ -8,11 +8,9 @@ function Header() {
 
   const handleTabClick = (tabName) => {
     setActiveTab(tabName);
-    setMobileMenuOpen(false); // Close the mobile menu after clicking a menu item
+    setMobileMenuOpen(false);
   };
-  // useEffect(() => {
-  //   setMobileMenuOpen(false);
-  // }, [mobileMenuOpen]);
+
   const content = (
     <>
       <div className="lg:hidden block absolute top-16 w-full  left-0 right-0 bg-slate-900 transition">
