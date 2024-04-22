@@ -20,6 +20,11 @@ function Header() {
               Home
             </li>
           </Link>
+          <Link to="https://robocor24.cyclic.app/" spy={true} smooth={true}>
+            <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">
+              Robocor'24
+            </li>
+          </Link>
           <Link to="About" spy={true} smooth={true}>
             <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">
               About
@@ -96,6 +101,16 @@ function Header() {
               onClick={() => handleTabClick("Home")}
             >
               Home
+            </li>
+          </Link>
+          <Link to="https://robocor24.cyclic.app/">
+            <li
+              className={`nav-item ${
+                activeTab === "Robocor'24" ? "active" : ""
+              }`}
+              onClick={() => handleTabClick("Robocor'24")}
+            >
+              Robocor'24
             </li>
           </Link>
           <Link to="/projects">
