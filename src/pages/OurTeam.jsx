@@ -55,6 +55,9 @@ import Kritika from "../../public/img/First_year/Kritika.jpeg";
 import Aditya from "../../public/img/First_year/Aditya lochan.jpeg";
 import DHRUVA from "../../public/img/First_year/Dhruva D.jpeg";
 import insta from "./../../public/img/link/link.png";
+import Shravya from "../../public/img/First_year/Shravya.jpg";
+import RISHABH from "../../public/img/First_year/ RISHABH SINGH.jpg";
+import Yash from "../../public/img/First_year/Yash Jadhav.jpg";
 
 const people = [
   {
@@ -380,6 +383,27 @@ const people = [
     linkedin:
       "https://www.linkedin.com/in/dhruva-d-7b40b0253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     image: DHRUVA,
+    role: "First Year",
+  },
+  {
+    name: "Shravya GS",
+    linkedin:
+      "https://www.linkedin.com/in/shravya-gs-572214302?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    image: Shravya,
+    role: "First Year",
+  },
+  {
+    name: "RISHABH SINGH",
+    linkedin:
+      "https://www.linkedin.com/in/rishabh-s-542b02271?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    image: RISHABH,
+    role: "First Year",
+  },
+  {
+    name: "Yash Jadhav",
+    linkedin:
+      "https://www.linkedin.com/in/yash-jadhav-7ba599264?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    image: Yash,
     role: "First Year",
   },
 ];
