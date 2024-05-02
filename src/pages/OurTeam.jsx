@@ -58,7 +58,9 @@ import insta from "./../../public/img/link/link.png";
 import Shravya from "../../public/img/First_year/Shravya.jpg";
 import RISHABH from "../../public/img/First_year/ RISHABH SINGH.jpg";
 import Yash from "../../public/img/First_year/Yash Jadhav.jpg";
-
+import ARPREET from "../../public/img/First_year/ ARPREET SINGH.jpg";
+import PURBAYAN from "../../public/img/First_year/ PURBAYAN BISWAS.jpg";
+import VRITIKA from "./../../public/img/Second_year/VRITIKA VITHAL SAVUKAR.jpg";
 const people = [
   {
     id: 1,
@@ -307,6 +309,12 @@ const people = [
     role: "Second Year",
   },
   {
+    name: "Vritika Savukar ",
+    linkedin: "https://www.linkedin.com/in/vritika-savukar-71885b266/",
+    image: VRITIKA,
+    role: "Second Year",
+  },
+  {
     name: "ABHISHEK",
     linkedin:
       "https://www.linkedin.com/in/abhishek-6640b42b0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -404,6 +412,19 @@ const people = [
     linkedin:
       "https://www.linkedin.com/in/yash-jadhav-7ba599264?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     image: Yash,
+    role: "First Year",
+  },
+  {
+    name: "Purbayan Biswas",
+    linkedin:
+      "https://www.linkedin.com/in/purbayan-biswas-49b767210?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    image: PURBAYAN,
+    role: "First Year",
+  },
+  {
+    name: "Arpreet Singh ",
+    linkedin: "https://in.linkedin.com/in/arpreet-singh-423a6b305",
+    image: ARPREET,
     role: "First Year",
   },
 ];
