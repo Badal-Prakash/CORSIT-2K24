@@ -303,6 +303,13 @@ const people = [
     role: "Second Year",
   },
   {
+    name: "Purbayan Biswas",
+    linkedin:
+      "https://www.linkedin.com/in/purbayan-biswas-49b767210?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    image: PURBAYAN,
+    role: "Second Year",
+  },
+  {
     name: "Aditya Agarwal",
     linkedin: "https://www.linkedin.com/in/aditya-agarwal-3175ab259",
     image: Aditya_agr,
@@ -412,13 +419,6 @@ const people = [
     linkedin:
       "https://www.linkedin.com/in/yash-jadhav-7ba599264?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     image: Yash,
-    role: "First Year",
-  },
-  {
-    name: "Purbayan Biswas",
-    linkedin:
-      "https://www.linkedin.com/in/purbayan-biswas-49b767210?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    image: PURBAYAN,
     role: "First Year",
   },
   {
