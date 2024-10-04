@@ -1,21 +1,50 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import Logo from "../../public/logo.png";
 import { useEffect, useState } from "react";
 
 function Header() {
+  const location = useLocation();
   const [activeTab, setActiveTab] = useState("Home");
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
+  useEffect(() => {
+    switch (location.pathname) {
+      case "/":
+        setActiveTab("Home");
+        break;
+      case "/about":
+        setActiveTab("About");
+        break;
+      case "/projects":
+        setActiveTab("Projects");
+        break;
+      case "/ourteam":
+        setActiveTab("OurTeam");
+        break;
+      case "/contact":
+        setActiveTab("Contact");
+        break;
+      case "/alumini":
+        setActiveTab("Alumini");
+        break;
+      default:
+        setActiveTab("Home");
+    }
+  }, [location.pathname]); 
   const handleTabClick = (tabName) => {
     setActiveTab(tabName);
-    setMobileMenuOpen(false);
+    setMobileMenuOpen(false); 
   };
 
   const content = (
     <>
-      <div className="lg:hidden block absolute top-16 w-full  left-0 right-0 bg-slate-900 transition">
+      <div className="lg:hidden block absolute top-16 w-full left-0 right-0 bg-slate-900 transition">
         <ul className="text-center text-xl p-20">
-          <Link to="/" spy={true} smooth={true}>
+          <Link
+            to="/"
+            spy={true}
+            smooth={true}
+            onClick={() => handleTabClick("Home")}
+          >
             <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">
               Home
             </li>
@@ -25,27 +54,52 @@ function Header() {
               Robocor'24
             </li>
           </Link>
-          <Link to="About" spy={true} smooth={true}>
+          <Link
+            to="/about"
+            spy={true}
+            smooth={true}
+            onClick={() => handleTabClick("About")}
+          >
             <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">
               About
             </li>
           </Link>
-          <Link to="Projects" spy={true} smooth={true}>
+          <Link
+            to="/projects"
+            spy={true}
+            smooth={true}
+            onClick={() => handleTabClick("Projects")}
+          >
             <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">
               Projects
             </li>
           </Link>
-          <Link to="OurTeam" spy={true} smooth={true}>
+          <Link
+            to="/ourteam"
+            spy={true}
+            smooth={true}
+            onClick={() => handleTabClick("OurTeam")}
+          >
             <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">
               Team
             </li>
           </Link>
-          <Link to="Contact" spy={true} smooth={true}>
+          <Link
+            to="/contact"
+            spy={true}
+            smooth={true}
+            onClick={() => handleTabClick("Contact")}
+          >
             <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">
               Contact Us
             </li>
           </Link>
-          <Link to="Alumini" spy={true} smooth={true}>
+          <Link
+            to="/alumini"
+            spy={true}
+            smooth={true}
+            onClick={() => handleTabClick("Alumini")}
+          >
             <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">
               Alumini
             </li>
@@ -54,6 +108,7 @@ function Header() {
       </div>
     </>
   );
+
   return (
     <header className="bg-slate-900 shadow-md fixed w-screen z-50">
       <div className="flex justify-between items-center max-w-6xl mx-auto p-3">
@@ -95,11 +150,8 @@ function Header() {
             mobileMenuOpen ? "flex-col" : "hidden"
           }`}
         >
-          <Link to="/">
-            <li
-              className={`nav-item ${activeTab === "Home" ? "active" : ""}`}
-              onClick={() => handleTabClick("Home")}
-            >
+          <Link to="/" onClick={() => handleTabClick("Home")}>
+            <li className={`nav-item ${activeTab === "Home" ? "active" : ""}`}>
               Home
             </li>
           </Link>
@@ -113,42 +165,35 @@ function Header() {
               Robocor'24
             </li>
           </Link>
-          <Link to="/projects">
+          <Link to="/projects" onClick={() => handleTabClick("Projects")}>
             <li
               className={`nav-item ${activeTab === "Projects" ? "active" : ""}`}
-              onClick={() => handleTabClick("Projects")}
             >
               Projects
             </li>
           </Link>
-          <Link to="/about">
-            <li
-              className={`nav-item ${activeTab === "About" ? "active" : ""}`}
-              onClick={() => handleTabClick("About")}
-            >
+          <Link to="/about" onClick={() => handleTabClick("About")}>
+            <li className={`nav-item ${activeTab === "About" ? "active" : ""}`}>
               About
             </li>
           </Link>
-          <Link to="/ourteam">
+          <Link to="/ourteam" onClick={() => handleTabClick("OurTeam")}>
             <li
               className={`nav-item ${activeTab === "OurTeam" ? "active" : ""}`}
-              onClick={() => handleTabClick("OurTeam")}
             >
               Our Team
             </li>
           </Link>
-          <Link to="/contact">
+          <Link to="/contact" onClick={() => handleTabClick("Contact")}>
             <li
               className={`nav-item ${activeTab === "Contact" ? "active" : ""}`}
-              onClick={() => handleTabClick("Contact")}
             >
               Contact
             </li>
           </Link>
-          <Link to="/alumini">
+          <Link to="/alumini" onClick={() => handleTabClick("Alumini")}>
             <li
               className={`nav-item ${activeTab === "Alumini" ? "active" : ""}`}
-              onClick={() => handleTabClick("Alumini")}
             >
               Alumini
             </li>
