@@ -45,6 +45,16 @@ import ks from "./../../public/img/Alumini/Kshitiz Singh.jpg";
 import aditiD from "./../../public/img/Alumini/Aditi.jpg";
 import sumanth from "./../../public/img/Alumini/Sumanth Jain.jpg";
 import adityRaj from "./../../public/img/Alumini/ADITYA RAJ.jpg";
+import AdithyaD from "./../../public/img/Alumini/AdityaD.jpg";
+import Ashish from "./../../public/img/Alumini/Ashish.jpg";
+import AyushmanSharma from "./../../public/img/Alumini/AyushmanSharma.jpeg";
+import Jeevitha from "./../../public/img/Alumini/Jeevitha.jpg";
+import Kunal from "./../../public/img/Alumini/Kunal.jpg";
+import ojas from "./../../public/img/Alumini/ojas.jpg";
+import Sameer from "./../../public/img/Alumini/Sameer.jpg";
+import TannisthaNandy from "./../../public/img/Alumini/Tannistha Nandy .jpg";
+import YashaswiniK_1 from "./../../public/img/Alumini/YashaswiniK_1.jpg";
+
 
 const people = [
   {
@@ -381,6 +391,60 @@ const people = [
     linkedin: "https://www.linkedin.com/in/sumanth-jain-v-b-9a3188218",
     ima: sumanth,
     role: "DevOps Engineer at Light & Wonder",
+  },
+  {
+    name: "Ojas Sangra",
+    linkedin: "https://www.linkedin.com/in/ojas-sangra05/",
+    ima: ojas,
+    role: "Oracle - Associate Applications Developer",
+  },
+  {
+    name: "Ashish Mahanth",
+    linkedin: "https://www.linkedin.com/in/ashish-mahanth-887b0721b/",
+    ima: Ashish,
+    role: "Microchip -Software Engineer 1",
+  },
+  {
+    name: "Kunal",
+    linkedin: "https://www.linkedin.com/in/kunal-chanda-104a63226/",
+    ima: Kunal,
+    role: "Oracle - Associate Engineer",
+  },
+  {
+    name: "Sameer Kumar",
+    linkedin: "https://www.linkedin.com/in/sameer-shetty-478481217/",
+    ima: Sameer,
+    role: "Contentstack - Associate Software Engineer",
+  },
+  {
+    name: "Ayushman Sharma",
+    linkedin: "https://www.linkedin.com/in/ayushmansrma/",
+    ima: AyushmanSharma,
+    role: "Delloite - Analyst",
+  },
+  {
+    name: "Jeevitha",
+    linkedin: "https://www.linkedin.com/in/jeevitha-k-a-744405229/",
+    ima: Jeevitha,
+    role: "Oracle - Associate application developer",
+  },
+  {
+    name: "Tannistha Nandy",
+    linkedin: "https://www.linkedin.com/in/tannistha-nandy-568a8131a/",
+    ima: TannisthaNandy,
+    role: "Toshiba - Associate software engineer",
+  },
+  {
+    name: "Yashaswini",
+    linkedin: "https://www.linkedin.com/in/yashaswini-kodi-924258227/",
+    ima: YashaswiniK_1,
+    role: "Saks Cloud Services - Cloud Engineer",
+  },
+  {
+    name: "Aditya Dubey",
+    linkedin: "",
+    ima: AdithyaD,
+    role: "Alumini",
   },
 ];
 
