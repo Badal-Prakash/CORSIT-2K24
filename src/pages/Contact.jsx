@@ -52,7 +52,7 @@ function Contact() {
                 <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                   PHONE
                 </h2>
-                <p className="leading-relaxed">6006499457</p>
+                <p className="leading-relaxed">8104882160</p>
               </div>
             </motion.div>
           </motion.div>
@@ -122,7 +122,7 @@ function Contact() {
                 duration: 0.8,
               }}
             >
-              Button
+              Submit
             </motion.button>
             <p className="text-xs text-gray-400 text-opacity-90 mt-3"></p>
           </motion.div>
