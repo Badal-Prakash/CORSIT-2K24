@@ -126,13 +126,13 @@ const people = [
   },
   {
     name: "SURAJ ARIBENCHI",
-    linkedin: "https://www.linkedin.com/company/corsit/",
+    linkedin: "https://www.linkedin.com/in/suraj-aribenchi-9b5340239/",
     image: SURAJ,
     role: "Fourth Year",
   },
   {
     name: "VIVEK M",
-    linkedin: "https://www.linkedin.com/in/vivekinnovator",
+    linkedin: "https://www.linkedin.com/in/vivekindev/",
     image: VIVEK,
     role: "Fourth Year",
   },
@@ -165,13 +165,13 @@ const people = [
   },
   {
     name: "CHAITHRA H R",
-    linkedin: "https://www.linkedin.com/company/corsit/",
+    linkedin: "https://www.linkedin.com/in/chaithra-hr/",
     image: CHAITHRA,
     role: "Third Year",
   },
   {
     name: "KETAKI JOJANE",
-    linkedin: "https://www.linkedin.com/in/ketaki-jojane-a030a7265",
+    linkedin: "https://www.linkedin.com/in/ketaki-jojane/",
     image: KETAKI,
     role: "Third Year",
   },
@@ -213,7 +213,7 @@ const people = [
   },
   {
     name: "YATIN BHATIA",
-    linkedin: "https://www.linkedin.com/company/corsit/",
+    linkedin: "https://www.linkedin.com/in/yatin-bhatia-45682a250/",
     image: YATIN,
     role: "Third Year",
   },
@@ -237,8 +237,7 @@ const people = [
   },
   {
     name: "Purbayan Biswas",
-    linkedin:
-      "https://www.linkedin.com/in/purbayan-biswas-49b767210?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    linkedin:"https://www.linkedin.com/in/purbayan-biswas-49b767210/",
     image: PURBAYAN,
     role: "Third Year",
   },
@@ -256,27 +255,27 @@ const people = [
   },
   {
     name: "Jahnvi Sharma ",
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/jahnvi-sharma-41b877243/",
     image: Jahnvi,
     role: "Second Year",
   },
   {
     name: "Advaita Amrit ",
     linkedin:
-      "https://www.linkedin.com/in/advaita-amrit?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "https://www.linkedin.com/in/advaita-amrit/",
     image: Advaita,
     role: "Second Year",
   },
   {
     name: "Pratik Gautam  ",
     linkedin:
-      "https://www.linkedin.com/in/pratik-gautam-412b9029a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "https://www.linkedin.com/in/pratik-gautam-412b9029a/",
     image: Pratik,
     role: "Second Year",
   },
   {
     name: "Anaya Singh",
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/anaya-singh-386140302/",
     image: Anaya,
     role: "Second Year",
   },
@@ -289,14 +288,14 @@ const people = [
   {
     name: "Aryan Kumar Sinha ",
     linkedin:
-      "https://www.linkedin.com/in/abhishek-6640b42b0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "https://www.linkedin.com/in/aryan-kumar-sinha-59b3aa2aa/",
     image: Aryan,
     role: "Second Year",
   },
   {
     name: "SHASHANK H",
     linkedin:
-      "https://www.linkedin.com/in/abhishek-6640b42b0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "https://www.linkedin.com/in/shashank-h-27997b202/",
     image: SHASHANK,
     role: "Second Year",
   },
@@ -315,41 +314,41 @@ const people = [
   {
     name: "Aditya Lochan",
     linkedin:
-      "https://www.linkedin.com/in/aditya-lochan-a119a71a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "https://www.linkedin.com/in/aditya-lochan-a119a71a2/",
     image: Aditya,
     role: "Second Year",
   },
   {
     name: "DHRUVA D ",
     linkedin:
-      "https://www.linkedin.com/in/dhruva-d-7b40b0253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "https://www.linkedin.com/in/dhruva-d-7b40b0253/",
     image: DHRUVA,
     role: "Second Year",
   },
   {
     name: "Shravya GS",
     linkedin:
-      "https://www.linkedin.com/in/shravya-gs-572214302?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "https://www.linkedin.com/in/shravya-gs-572214302/",
     image: Shravya,
     role: "Second Year",
   },
   {
     name: "RISHABH SINGH",
     linkedin:
-      "https://www.linkedin.com/in/rishabh-s-542b02271?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "https://www.linkedin.com/in/rishabh-s-542b02271/",
     image: RISHABH,
     role: "Second Year",
   },
   {
     name: "Yash Jadhav",
     linkedin:
-      "https://www.linkedin.com/in/yash-jadhav-7ba599264?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "https://www.linkedin.com/in/yash-jadhav-7ba599264/",
     image: Yash,
     role: "Second Year",
   },
   {
     name: "Arpreet Singh ",
-    linkedin: "https://in.linkedin.com/in/arpreet-singh-423a6b305",
+    linkedin: "https://in.linkedin.com/in/arpreet-singh-423a6b305/",
     image: ARPREET,
     role: "Second Year",
   },
