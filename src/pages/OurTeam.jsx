@@ -1,16 +1,6 @@
 import { ExternalLink } from "react-external-link";
 import { FaLinkedinIn } from "react-icons/fa";
 import { CiLinkedin } from "react-icons/ci";
-//import ojas from "./../../public/img/Fourth_year/ojas.jpg";
-//import ashish_m from "../../public/img/Fourth_year/Ashish.jpg";
-//import aditya_d from "../../public/img/Fourth_year/AdityaD.jpg";
-// import sameer_s from "../../public/img/Fourth_year/sameer.jpg";
-//import sameer_s from "./../../public/img/Fourth_year/Sameer.jpg";
-//import TANNISHTHA from "../../public/img/Fourth_year/Tannistha Nandy .jpg";
-//import KUNAL from "../../public/img/Fourth_year/Kunal.jpg";
-//import YASHASWINI from "../../public/img/Fourth_year/YashaswiniK_1.jpg";
-//import AYUSHMAN from "../../public/img/Fourth_year/AyushmanSharma.jpeg";
-//import JEEVITHA from "../../public/img/Fourth_year/1si20ec039_jeevitha.jpg";
 import UJJAWAL from "../../public/img/Fourth_year/Ujjawal_4yr.jpg";
 import SHARANYA from "../../public/img/Fourth_year/SharanyaBhat.jpg";
 import ASHUTOSH from "../../public/img/Fourth_year/Ashutosh Malviya.jpg";
@@ -19,7 +9,7 @@ import RISHAV from "../../public/img/Fourth_year/rishav.jpg";
 import HARSH from "../../public/img/Fourth_year/Harsh Gaurav.jpg";
 import LEKHANA from "../../public/img/Fourth_year/IMG_20230216_144211.jpg";
 import NAMRATA from "../../public/img/Fourth_year/namrata.jpg";
-import SIDDHANT from "../../public/img/Fourth_year/Siddhant Raj.jpg";
+import SIDDHANT from "../../public/img/Fourth_year/Siddhant Raj.jpeg";
 import JATIN from "../../public/img/Fourth_year/Jatin.jpg";
 import SURAJ from "../../public/img/Fourth_year/_Suraj Aribenchi.jpeg";
 import VIVEK from "../../public/img/Fourth_year/Vivek M (EEE).jpg";
@@ -61,7 +51,6 @@ import ARPREET from "../../public/img/Second_year/_ARPREET SINGH.jpg";
 import PURBAYAN from "../../public/img/Third_year/_PURBAYAN BISWAS.jpg";
 import VRITIKA from "./../../public/img/Third_year/VRITIKA VITHAL SAVUKAR.jpg";
 const people = [
-  
   {
     name: "JATIN SHARMA",
     linkedin: "https://www.linkedin.com/in/jatin-sharma-669590142",
@@ -70,7 +59,7 @@ const people = [
   },
   {
     name: "UJJAWAL SINGH ",
-    linkedin: "https://www.linkedin.com/company/corsit/",
+    linkedin: "https://www.linkedin.com/in/ujjawal-singh-4a4817229",
     image: UJJAWAL,
     role: "Vice-Chairman",
   },
@@ -100,7 +89,7 @@ const people = [
   },
   {
     name: "SIDDHANT RAJ",
-    linkedin: "https://www.linkedin.com/company/corsit/",
+    linkedin: "https://www.linkedin.com/in/siddhant-raj-3a804a2a9/",
     image: SIDDHANT,
     role: "Tech Lead",
   },
@@ -122,7 +111,7 @@ const people = [
     image: ASHUTOSH,
     role: "Fourth Year",
   },
-  
+
   {
     name: "RISHAV SHEKHAR",
     linkedin: "https://www.linkedin.com/in/rishav-shekhar-a21279232",
@@ -147,14 +136,14 @@ const people = [
     image: VIVEK,
     role: "Fourth Year",
   },
-  
+
   {
     name: "VAISHALI CHOUDHARY",
     linkedin: "https://www.linkedin.com/in/b-vaishali-choudhary-671075239",
     image: VAISHALI,
     role: "Fourth Year",
   },
-  
+
   {
     name: "MAYANK PANDEY",
     linkedin: "https://www.linkedin.com/in/mayank-pandey-1a16b7240",
@@ -163,8 +152,8 @@ const people = [
   },
 
   {
-    name: "BADAL",
-    linkedin: "https://www.linkedin.com/company/corsit/",
+    name: "BADAL PRAKASH NARAYAN",
+    linkedin: "https://www.linkedin.com/in/badal-prakash-narayan-a68b5a239/",
     image: BADAL,
     role: "Fourth Year",
   },
