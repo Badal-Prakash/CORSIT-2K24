@@ -159,7 +159,7 @@ const people = [
   },
   {
     name: "ARYAN",
-    linkedin: "https://www.linkedin.com/in/aryan-kapoor-86535724b",
+    linkedin: "https://www.linkedin.com/in/aryan-kumar-86535724b/",
     image: ARYAN,
     role: "Fourth Year",
   },
