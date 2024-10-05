@@ -442,7 +442,7 @@ const people = [
   },
   {
     name: "Aditya Dubey",
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/aditya-dubey-611445331/",
     ima: AdithyaD,
     role: "Alumini",
   },
