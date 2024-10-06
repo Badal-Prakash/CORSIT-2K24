@@ -47,7 +47,6 @@ import insta from "./../../public/img/link/link.png";
 import Shravya from "../../public/img/Second_year/Shravya.jpg";
 import RISHABH from "../../public/img/Second_year/_RISHABH SINGH.jpg";
 import Yash from "../../public/img/Second_year/Yash Jadhav.jpg";
-import ARPREET from "../../public/img/Second_year/_ARPREET SINGH.jpg";
 import PURBAYAN from "../../public/img/Third_year/_PURBAYAN BISWAS.jpg";
 import VRITIKA from "./../../public/img/Third_year/VRITIKA VITHAL SAVUKAR.jpg";
 const people = [
@@ -71,7 +70,7 @@ const people = [
   },
   {
     name: "NAMRATA BHARADWAJ",
-    linkedin: "https://www.linkedin.com/company/corsit/",
+    linkedin: "https://www.linkedin.com/in/namratabharadwaj/",
     image: NAMRATA,
     role: "Treasurer",
   },
@@ -189,7 +188,7 @@ const people = [
   },
   {
     name: "MUDIT SHEKHAR",
-    linkedin: "https://www.linkedin.com/company/corsit/",
+    linkedin: "https://www.linkedin.com/in/mudit-shekhar-339465331/",
     image: MUDIT,
     role: "Third Year",
   },
@@ -344,12 +343,6 @@ const people = [
     linkedin:
       "https://www.linkedin.com/in/yash-jadhav-7ba599264/",
     image: Yash,
-    role: "Second Year",
-  },
-  {
-    name: "Arpreet Singh ",
-    linkedin: "https://in.linkedin.com/in/arpreet-singh-423a6b305/",
-    image: ARPREET,
     role: "Second Year",
   },
 ];
