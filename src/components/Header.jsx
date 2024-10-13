@@ -49,11 +49,11 @@ function Header() {
               Home
             </li>
           </Link>
-          <Link to="https://robocor24.corsit.in/" spy={true} smooth={true}>
-            <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">
-              Robocor'24
-            </li>
-          </Link>
+          //<Link to="https://robocor24.corsit.in/" spy={true} smooth={true}>
+           // <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">
+             // Robocor'24
+           // </li>
+         // </Link>
           <Link
             to="/about"
             spy={true}
