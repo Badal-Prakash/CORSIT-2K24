@@ -155,16 +155,16 @@ function Header() {
               Home
             </li>
           </Link>
-          <Link to="https://robocor24.corsit.in/">
-            <li
-              className={`nav-item ${
-                activeTab === "Robocor'24" ? "active" : ""
-              }`}
-              onClick={() => handleTabClick("Robocor'24")}
-            >
-              Robocor'24
-            </li>
-          </Link>
+         // <Link to="https://robocor24.corsit.in/">
+           // <li
+             // className={`nav-item ${
+               // activeTab === "Robocor'24" ? "active" : ""
+             // }`}
+             // onClick={() => handleTabClick("Robocor'24")}
+            //>
+             // Robocor'24
+            //</li>
+         // </Link>
           <Link to="/projects" onClick={() => handleTabClick("Projects")}>
             <li
               className={`nav-item ${activeTab === "Projects" ? "active" : ""}`}
