@@ -103,7 +103,8 @@ function Header() {
               Alumini
             </li>
           </Link>
-          <Link to="https://forms.gle/Qt5K3YehSf3p7UQ79" spy={true} smooth={true}>
+          <Link to="https://forms.gle/Qt5K3YehSf3p7UQ79" spy={true} smooth={true}
+             onClick={() => handleTabClick("RoboExpo'24")}>
             <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">
               RoboExpo'24
             </li>
