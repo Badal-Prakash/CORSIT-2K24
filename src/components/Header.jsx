@@ -26,6 +26,9 @@ function Header() {
       case "/alumini":
         setActiveTab("Alumini");
         break;
+      case "/roboexpo":
+        setActiveTab("Roboexpo");
+        break;
       default:
         setActiveTab("Home");
     }
@@ -98,6 +101,11 @@ function Header() {
           >
             <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">
               Alumini
+            </li>
+          </Link>
+          <Link to="https://forms.gle/Qt5K3YehSf3p7UQ79" spy={true} smooth={true}>
+            <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">
+              RoboExpo'24
             </li>
           </Link>
         </ul>
@@ -182,6 +190,16 @@ function Header() {
               className={`nav-item ${activeTab === "Alumini" ? "active" : ""}`}
             >
               Alumini
+            </li>
+          </Link>
+           <Link to="https://forms.gle/Qt5K3YehSf3p7UQ79">
+            <li
+              className={`nav-item ${
+                activeTab === "RoboExpo'24" ? "active" : ""
+              }`}
+              onClick={() => handleTabClick("RoboExpo'24")}
+            >
+              RoboExpo'24
             </li>
           </Link>
         </ul>
