@@ -104,7 +104,7 @@ function Header() {
             </li>
           </Link>
           <Link
-            to="https://forms.gle/Qt5K3YehSf3p7UQ79"
+            to="/recruitment"
             spy={true}
             smooth={true}
             onClick={() => handleTabClick("Recruitment")}
