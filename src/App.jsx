@@ -9,7 +9,7 @@ import Projects from "./pages/Projects";
 import Alumini from "./pages/Alumini";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import OurEvents from "./pages/OurEvents";
+import Register from "./pages/Recruitment";
 function App() {
   return (
     <div>
@@ -22,7 +22,7 @@ function App() {
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/ourteam" element={<OurTeam />}></Route>
           <Route path="/projects" element={<Projects />}></Route>
-          {/* <Route path="/robocor" element={<Robocor />}></Route> */}
+          <Route path="/recruitment" element={<Register />}></Route>
           {/* <Route path="/heckfest" element={<Heckfest />}></Route> */}
         </Routes>
       </BrowserRouter>

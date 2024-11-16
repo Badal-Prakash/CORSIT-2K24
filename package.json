@@ -8,11 +8,11 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
-    
   },
   "dependencies": {
     "@tsparticles/all": "^3.3.0",
     "@tsparticles/react": "^3.0.0",
+    "axios": "^1.7.7",
     "framer-motion": "^11.0.24",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -21,6 +21,7 @@
     "react-router-dom": "^6.22.0",
     "react-scroll": "^1.9.0",
     "react-simple-typewriter": "^5.0.1",
+    "react-toastify": "^10.0.6",
     "react-tsparticles": "^2.12.2",
     "react-typed": "^2.0.12",
     "styled-components": "^6.1.8",
