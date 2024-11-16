@@ -74,7 +74,7 @@ function Recruitment() {
           CLUB OF ROBOTICS
         </h4>
         <h5 className="text-2xl font-semibold text-gray-300 mb-6">
-          Requirement 2024
+          Recruitment 2024
         </h5>
         <img
           src={bot}
