@@ -67,7 +67,7 @@ function Recruitment() {
         pauseOnFocusLoss
         draggable
         pauseOnHover
-        theme="dark" // dark theme for the ToastContainer
+        theme="dark"
       />
       <div className="hero bg-[#1F2937] text-white py-20 text-center">
         <h4 className="text-4xl font-bold text-gray-100 mb-2">
