@@ -3,7 +3,7 @@ import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Spinner from "../components/Spinner";
-
+import bot from "./../../public/robot.png";
 function Recruitment() {
   const initialFormData = {
     Name: "",
@@ -77,7 +77,7 @@ function Recruitment() {
           Requirement 2024
         </h5>
         <img
-          src="./../../public/robot.png"
+          src={bot}
           alt="bot image"
           className="mx-auto mb-6 rounded-sm shadow-sm max-w-[120px] sm:max-w-[190px] md:max-w-[200px]"
         />
