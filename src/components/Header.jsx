@@ -26,16 +26,16 @@ function Header() {
       case "/alumini":
         setActiveTab("Alumini");
         break;
-      case "/roboexpo":
-        setActiveTab("Roboexpo");
+      case "/recruitment":
+        setActiveTab("Recruitment");
         break;
       default:
         setActiveTab("Home");
     }
-  }, [location.pathname]); 
+  }, [location.pathname]);
   const handleTabClick = (tabName) => {
     setActiveTab(tabName);
-    setMobileMenuOpen(false); 
+    setMobileMenuOpen(false);
   };
 
   const content = (
@@ -52,7 +52,7 @@ function Header() {
               Home
             </li>
           </Link>
-         
+
           <Link
             to="/about"
             spy={true}
@@ -103,10 +103,14 @@ function Header() {
               Alumini
             </li>
           </Link>
-          <Link to="https://forms.gle/Qt5K3YehSf3p7UQ79" spy={true} smooth={true}
-             onClick={() => handleTabClick("RoboExpo'24")}>
+          <Link
+            to="https://forms.gle/Qt5K3YehSf3p7UQ79"
+            spy={true}
+            smooth={true}
+            onClick={() => handleTabClick("Recruitment")}
+          >
             <li className="my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">
-              RoboExpo'24
+              Recruitment
             </li>
           </Link>
         </ul>
@@ -193,14 +197,14 @@ function Header() {
               Alumini
             </li>
           </Link>
-           <Link to="https://forms.gle/Qt5K3YehSf3p7UQ79">
+          <Link to="/recruitment">
             <li
               className={`nav-item ${
-                activeTab === "RoboExpo'24" ? "active" : ""
+                activeTab === "Recruitment" ? "active" : ""
               }`}
-              onClick={() => handleTabClick("RoboExpo'24")}
+              onClick={() => handleTabClick("Recruitment")}
             >
-              RoboExpo'24
+              Recruitment
             </li>
           </Link>
         </ul>
