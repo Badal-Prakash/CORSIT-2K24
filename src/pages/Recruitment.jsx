@@ -4,12 +4,14 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Spinner from "../components/Spinner";
 import bot from "./../../public/robot.png";
+
 function Recruitment() {
   const initialFormData = {
     Name: "",
     Email: "",
     PhoneNumber: "",
     Usn: "",
+    Year: "",
   };
 
   const [formData, setFormData] = useState(initialFormData);
@@ -20,7 +22,7 @@ function Recruitment() {
     setFormData({ ...formData, [name]: value });
   };
 
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
 
     const phoneRegex = /^[0-9]{10}$/;
@@ -32,27 +34,18 @@ function Recruitment() {
     }
 
     setLoading(true);
-    const regData = {
-      Name: formData.Name,
-      Email: formData.Email,
-      PhoneNumber: formData.PhoneNumber,
-      Usn: formData.Usn,
-    };
-
-    axios
-      .post(
+    try {
+      await axios.post(
         "https://corsit-reg-server.onrender.com/api/participant/register",
-        regData
-      )
-      .then((res) => {
-        toast.success("Registration Successful");
-        setFormData(initialFormData);
-        setLoading(false);
-      })
-      .catch((err) => {
-        toast.error(err.response.data.message || "Something went wrong");
-        setLoading(false);
-      });
+        formData
+      );
+      toast.success("Registration Successful");
+      setFormData(initialFormData);
+    } catch (err) {
+      toast.error(err.response?.data?.message || "Something went wrong");
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -153,6 +146,28 @@ function Recruitment() {
                 onChange={handleChange}
                 required
               />
+            </div>
+
+            <div className="mb-6">
+              <label
+                htmlFor="Year"
+                className="block text-lg font-semibold text-gray-100 mb-2 text-left"
+              >
+                YEAR
+              </label>
+              <select
+                name="Year"
+                className="w-full px-4 py-2 bg-[#4A5568] border border-[#E2E8F0] rounded-sm shadow-sm focus:outline-none focus:ring-2 focus:ring-[#38BDF8] text-white"
+                value={formData.Year}
+                onChange={handleChange}
+                required
+              >
+                <option value="" disabled>
+                  Select Year
+                </option>
+                <option value="First Year">First Year</option>
+                <option value="Second Year">Second Year</option>
+              </select>
             </div>
 
             <div className="flex items-center justify-between">
